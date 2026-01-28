@@ -1,0 +1,2254 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOTANICAL MARKET Header Design</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Noto+Serif+JP:wght@300;400&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    
+    <!-- English script -->
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'kep1eby',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+
+  
+      <!-- // font-family: "fot-tsukuaoldmin-pr6n", sans-serif;
+      // font-weight: 300;
+      // font-style: normal; -->
+
+      <script>
+        (function(d) {
+          var config = {
+            kitId: 'kep1eby',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&amp;family=Lato:wght@300&amp;family=Noto+Sans+JP:wght@300;400;500;700&amp;family=Shippori+Mincho+B1&amp;family=Shippori+Mincho:wght@500&amp;display=swap" rel="stylesheet">
+
+    <style>
+        /* --- RESET & BASE STYLES --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img{
+          max-width: 100%;
+        }
+        body {
+          font-family: "fot-tsukuaoldmin-pr6n", sans-serif;
+          font-weight: 300;
+          font-style: normal;
+            color: #000000;
+            background-color: #FFFFFF;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: opacity 0.3s ease;
+        }
+
+        a:hover {
+            opacity: 0.7;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /* --- HEADER CONTAINER --- */
+        .site-header {
+            width: 100%;
+            background-color: #fff;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .header-inner {
+            max-width: 1828px;
+            margin: 0 auto;
+            padding-left: 0;
+            padding-right: 0px;
+        }
+
+        /* --- TOP ROW --- */
+        .header-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 25px;
+        }
+
+        /* Logo */
+        .logo h1 {
+            margin: 0;
+            line-height: 1;
+        }
+
+        .logo img {
+        width: 351px;
+        height: auto;
+        display: block;
+    }
+
+        /* Right Side Elements */
+        .header-actions {
+          display: flex;
+    align-items: center;
+    gap: 37px;
+        }
+
+        /* --- UPDATED SEARCH BAR --- */
+        .search-form {
+            position: relative; /* Essential for positioning the icon inside */
+            margin-right: 15px; /* Spacing between search and user icon */
+        }
+
+        .search-input {
+        width: 352px;
+        height: 53px;
+        border: 1px solid #888;
+        padding: 0 40px 0 10px;
+        font-size: 22px;
+        font-family: 'Noto Serif JP', serif;
+        outline: none;
+        color: #666;
+        border-radius: 0;
+        appearance: none;
+        letter-spacing: 0.88px;
+    }
+        
+        .search-input::placeholder {
+            color: #ccc;
+        }
+
+        /* The Search Icon Button inside the input */
+        .search-submit-btn {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .search-submit-btn svg {
+            width: 18px;
+            height: 18px;
+            stroke: #333;
+            stroke-width: 1.5;
+            fill: none;
+        }
+
+        /* --- ICONS (User, Cart) --- */
+        .icon-nav {
+            display: flex;
+            gap: 45px;
+            align-items: center;
+            margin-right: 15px;
+        }
+
+        .icon-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .icon-btn svg {
+            width: 22px;
+            height: 22px;
+            stroke: #333;
+            stroke-width: 1.5;
+            fill: none;
+        }
+
+        /* --- ACTION BUTTONS (Auth, Contact) --- */
+        .auth-nav {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 53px;
+            padding: 0 28px;
+            font-size: 22px;
+            letter-spacing: 0.88px;
+            box-sizing: border-box;
+            white-space: nowrap;
+            text-decoration: none;
+        }
+
+        .btn-outline {
+            background: #fff;
+            border: 1px solid #000000;
+            color: #333;
+        }
+
+        .btn-fill {
+            background: #666;
+            border: 1px solid #666;
+            color: #fff;
+        }
+
+        .btn-contact {
+            background: #fff;
+            border: 1px solid #000000;
+            letter-spacing: 1px;
+            display: flex;
+            gap: 8px;
+            width: 206px;
+            /* font-family: "trajan-pro-3", serif;
+            font-weight: 400;
+            font-style: normal; */
+
+            font-size: 20px;
+            margin-left: 23px;
+        }
+        
+        .btn-contact svg {
+          width: 25px;
+          height: 20px;
+            stroke: #333;
+            stroke-width: 1.2;
+            fill: none;
+        }
+
+        /* --- BOTTOM NAVIGATION --- */
+        .main-nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-list {
+            display: flex;
+            gap: 43px;
+        }
+
+        .nav-item a {
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #000000;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        .nav-item-brand a {
+            display: inline-flex; /* Make it inline-flex to wrap content and allow vertical alignment */
+            position: relative;
+            padding-bottom: 5px; /* Add some space between text and the line */
+        }
+
+        .nav-item-brand a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%; /* Initially hidden */
+            height: 2px;
+            background-color: #000;
+            transition: width 0.3s ease-out; /* Animation */
+        }
+
+        .nav-item-brand a:hover::after {
+            width: 100%; /* Expand on hover */
+        }
+
+        .nav-item-category a {
+            display: inline-flex; /* Make it inline-flex to wrap content and allow vertical alignment */
+            position: relative;
+            padding-bottom: 5px; /* Add some space between text and the line */
+        }
+
+        .nav-item-category a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%; /* Initially hidden */
+            height: 2px;
+            background-color: #000;
+            transition: width 0.3s ease-out; /* Animation */
+        }
+
+        .nav-item-category a:hover::after {
+            width: 100%; /* Expand on hover */
+        }
+        .nav-item a span {
+            margin-left: 5px;
+        }
+
+        .chevron {
+            width: 10px;
+            height: 10px;
+            border-right:  1px solid #000000;
+            border-bottom: 1px solid #000000;
+            transform: rotate(45deg);
+            margin-top: -3px;
+        }
+
+
+
+        /* --- BRAND NAVIGATION HOVER EFFECT --- */
+        /* --- BRAND NAVIGATION HOVER EFFECT --- */
+        /* --- BRAND NAVIGATION HOVER EFFECT --- */
+        /* --- BRAND NAVIGATION HOVER EFFECT --- */
+        /* --- BRAND NAVIGATION HOVER EFFECT --- */
+
+/* 1. Nav Item Setup */
+.nav-item-brand {
+    position: static !important; /* Allows full-width dropdown */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+/* --- DROPDOWN CONTAINER --- */
+.bm-dropdown-wrapper {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    /* border-top: 1px solid #f0f0f0;  Optional: Subtle border */
+    padding: 30px 0;
+    
+    /* Animation States */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05); /* Very soft shadow */
+    z-index: 999;
+}
+
+/* Show on Hover */
+.nav-item-brand:hover .bm-dropdown-wrapper {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* --- INNER CONTENT ALIGNMENT --- */
+.bm-inner
+ {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -66px;
+}
+/* --- BRAND LIST STYLE --- */
+.bm-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left; /* Text aligns left within the centered block */
+}
+
+.bm-list li {
+    margin-bottom: 15px; /* Spacing between items */
+}
+
+.bm-list li:last-child {
+    margin-bottom: 0;
+}
+
+.bm-list a {
+    font-size: 13px;
+    font-weight: 600; /* Bold text */
+    color: #333;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    display: block;
+    transition: opacity 0.2s;
+    font-family: "Noto Sans JP", sans-serif; /* Apply Noto Sans JP */
+}
+
+.bm-list a:hover {
+    opacity: 0.6;
+}
+
+
+
+/* --- BRAND NAVIGATION HOVER EFFECT --- */
+/* --- BRAND NAVIGATION HOVER EFFECT --- */
+/* --- BRAND NAVIGATION HOVER EFFECT --- */
+/* --- BRAND NAVIGATION HOVER EFFECT --- */
+/* --- BRAND NAVIGATION HOVER EFFECT --- */
+
+
+
+/* START MEGAMENU CSS(ON HOVER) */
+/* START MEGAMENU CSS(ON HOVER) */
+/* START MEGAMENU CSS(ON HOVER) */
+/* START MEGAMENU CSS(ON HOVER) */
+.site-header {
+    position: relative; 
+    z-index: 1000; /* High z-index to sit on top of everything */
+}
+
+/* Specific styling for the Category Navigation Item */
+.nav-item-category {
+    position: static !important; /* Static allows the dropdown to be full width of the browser */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+/* --- 2. MEGA MENU CONTAINER --- */
+.mm-dropdown-wrapper {
+    position: absolute;
+    top: 100%; /* Starts exactly at bottom of header */
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    
+    /* Hiding it by default */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+    
+    /* Shadow for depth */
+    box-shadow: 0 27px 44px rgba(0, 0, 0, 0.1);
+    
+    /* Scrollable if screen is short, since this menu is HUGE */
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+}
+
+/* Show Menu on Hover */
+.nav-item-category:hover .mm-dropdown-wrapper {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* --- 3. PART 1: CATEGORY LINKS GRID --- */
+.mm-links-section {
+    padding: 23px 0 50px;
+    background-color: #fff;
+}
+
+.mm-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.mm-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 Columns */
+    gap: 30px;
+}
+
+.mm-col {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Category Title */
+.mm-cat-title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    /* color: #000; */
+    margin-bottom: 17px;
+    letter-spacing: 0.05em;
+    letter-spacing: 0.6px;
+    color: #000000;
+}
+
+/* Sub Links List */
+.mm-link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mm-link-list li {
+    margin-bottom: -8px;
+}
+
+.mm-link-list a{
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 13px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s;
+    letter-spacing: 0.52px;
+    color: #000000;
+    line-height: 30px;
+}
+
+.mm-link-list a:hover {
+    color: #999;
+}
+
+/* --- 4. PART 2: IMAGE BANNER --- */
+.mm-hero-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    line-height: 0; /* Removes gap below image */
+}
+
+.mm-hero-img {
+    width: 100%;
+    height: 400px; /* Or auto, depending on your image aspect ratio */
+    object-fit: cover;
+}
+
+/* --- 5. PART 3: INTRO SECTION (Your Provided CSS) --- */
+/* I have pasted your exact CSS here, just ensuring z-index works in this context */
+
+
+/* END MEGAMENU CSS */
+/* END MEGAMENU CSS */
+/* END MEGAMENU CSS */
+/* END MEGAMENU CSS */
+
+
+/* Main slider css*/
+/* Main slider css*/
+/* Main slider css*/
+
+        /* --- SLIDER CONTAINER --- */
+        .slider {
+    width: 100%;
+    
+    height: 600px; 
+    position: relative;
+    overflow: hidden;
+    background-color: #f0f0f0; /* Placeholder color while loading */
+}
+
+.slider-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* --- SLIDER ITEMS --- */
+.slider-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* Fade Transition Setup */
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    transition: opacity 2.0s ease-in-out, visibility 2.0s; /* Slow, smooth fade (2 seconds) */
+}
+
+/* --- THE IMAGE --- */
+.slider-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ESSENTIAL: Ensures image covers area without stretching */
+    object-position: center;
+    
+    /* Prepare for Zoom Animation */
+    transform: scale(1.0);
+    transition: transform 6.0s linear; /* The zoom takes 6 seconds */
+}
+
+/* --- ACTIVE STATE (The Magic) --- */
+.slider-item.active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+}
+
+/* The Zoom Effect when active */
+.slider-item.active img {
+    transform: scale(1.1); /* Subtle 10% zoom */
+}
+
+/* End Main slider css*/
+/* End Main slider css*/
+/* End Main slider css*/
+
+
+
+        /* SECTION C */
+        /* SECTION C */
+        /* SECTION C */
+        /* SECTION C */
+        /* SECTION C */
+        /* SECTION C */
+        /* SECTION C */
+        /* SECTION C */
+
+
+        /* --- SECTION C: INTRODUCTION --- */
+        .intro-section {
+            background-color: #fff;
+            padding-top: 57px;
+            padding-bottom: 57px;
+            position: relative;
+            z-index: 2;
+           
+            overflow-x: clip;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative; /* Anchor for absolute positioning */
+          }
+
+        /* 1. THE STAMP GRAPHIC (Overlapping) */
+        .botanical-stamp {
+          position: absolute;
+          top: -243px;
+          right: -179px;
+          width: 420px;
+          height: auto;
+          z-index: 10;
+          pointer-events: none;
+          animation: rotateClockwise 125s linear infinite; /* 60s for very slow, linear for constant speed, infinite for continuous */
+        }
+
+        /* Keyframe animation for clockwise rotation */
+        @keyframes rotateClockwise {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* 2. CONCEPT TEXT */
+        .concept-block {
+            max-width: 749px;
+            margin-bottom: 50px; /* Space between text and gray banner */
+        }
+
+        .concept-label {
+          font-size: 16px;
+          letter-spacing: 0.75px;
+          color: #666;
+          margin-bottom: 9px;
+          text-transform: uppercase;
+          display: block;
+        }
+
+        .concept-heading {
+            font-size: 27px;
+            font-weight: 500;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            letter-spacing: 1px;
+        }
+
+        .concept-body {
+          font-size: 15px;
+          /* line-height: 2.2; */
+          color: #555;
+          margin-bottom: 0;
+          text-align: justify;
+          max-width: 705px;
+          letter-spacing: 0.6px;
+          line-height: 30px;
+        }
+
+        /* 3. MEMBERSHIP BANNER */
+        .membership-banner {
+            background-color: #F8F8F8; /* Light Gray Background */
+            padding: 30px 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Banner Text Left */
+        .banner-text-group {
+            flex: 1;
+        }
+
+        .banner-brand {
+        font-size: 27px;
+        color: #333;
+        margin-bottom: -2px;
+        display: block;
+        letter-spacing: 1.08px;
+    }
+        
+
+        .banner-title {
+          font-size: 27px;
+          font-weight: 500;
+          margin-bottom: 9px;
+          letter-spacing: 1.08px;
+        }
+
+        .banner-note {
+            font-size: 15px;
+            margin: 0;
+            letter-spacing: 0.6px;
+        }
+
+        /* Banner Circle Button Right */
+        .banner-cta {
+            flex-shrink: 0;
+            margin-left: 20px;
+        }
+
+        .circle-btn {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 187px;
+            height: 187px;
+            background-color: #666; /* Dark Gray */
+            border-radius: 50%;
+            text-decoration: none;
+            color: #fff;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            padding-top: 10px;
+          }
+
+        .circle-btn:hover {
+            background-color: #444;
+            transform: scale(1.02);
+        }
+
+        .btn-text {
+            font-size: 21px;
+            line-height: 28px;
+            margin-bottom: 4px;
+            text-align: center;
+        }
+
+        /* The Arrow Line */
+        .btn-arrow {
+            /* width: 40px;
+            height: 1px;
+            background-color: #fff;
+            position: relative; */
+        }
+
+        .btn-arrow::after {
+            /* content: '';
+            position: absolute;
+            right: 0;
+            top: -4px; 
+            width: 6px;
+            height: 6px;
+            border-top: 1px solid #fff;
+            border-right: 1px solid #fff;
+            transform: rotate(45deg); */
+        }
+
+/* End SECTION C CSS*/
+/* End SECTION C CSS*/
+/* End SECTION C CSS*/
+/* End SECTION C CSS*/
+/* End SECTION C CSS*/
+/* End SECTION C CSS*/
+/* End SECTION C CSS*/
+   
+
+
+/* SECTION D */
+/* SECTION D */
+/* SECTION D */
+/* SECTION D */
+/* SECTION D */
+ /* --- SECTION D: BRAND LIST --- */
+ .brand-section {
+  background-color: #FAF6F2;
+    padding: 61px 0 92px;
+        }
+
+        .container-narrow {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* Section Title */
+        .section-header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .section-subtitle {
+            font-size: 15px;
+            letter-spacing: 0.75px;
+            color: #000000;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: -5px;
+        }
+
+        .brand-row:nth-child(even) {
+          padding-left: 65px;
+          padding-right: 20px;
+        }
+
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 500;
+            margin: 0;
+            letter-spacing: 0.05em;
+            position: relative;
+            padding-bottom: 17px; /* Space for the line */
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 62px;
+            height: 1px;
+            background-color: #707070;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* --- BRAND ROW (The Zig-Zag Layout) --- */
+        .brand-row {
+            display: flex;
+            align-items: center; /* Vertically center content */
+            justify-content: space-between;
+            gap: 60px;
+            margin-bottom: 100px; /* Space between brands */
+        }
+
+        /* FLIP LAYOUT: Every 2nd row (Even) reverses direction */
+        .brand-row:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+
+        /* TEXT COLUMN */
+        .brand-content {
+            width: 38%; /* Text takes up roughly 40% */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Left align text */
+        }
+
+        .brand-logo-container {
+            margin-bottom: 30px;
+        }
+        
+     
+        .brand-description {
+            font-size: 14px;
+            line-height: 30px; /* Loose leading for readability */
+            color: #555;
+            margin-bottom: 40px;
+            text-align: justify;
+            letter-spacing: 0.6px;
+        }
+
+        /* CATEGORY LINK + ARROW IMAGE */
+        .category-link-wrapper {
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+            margin-left: auto; /* Push to the right */
+            margin-right: 20px;
+
+        }
+
+        .category-link-text {
+          font-size: 15px;
+          text-transform: uppercase;
+          letter-spacing: 0.75px;
+          display: block;
+          margin-bottom: -11px;
+          transition: color 0.3s;
+          margin-right: 28px;
+        }
+
+
+        .brand-row:nth-child(odd) .category-link-wrapper {
+    margin-right: 66px;
+}
+
+
+        .category-arrow-img {
+            width: 180px; /* Adjust length of the line image */
+            transition: transform 0.3s;
+        }
+
+        .category-link-wrapper:hover .category-link-text {
+            color: #000;
+        }
+        
+        .category-link-wrapper:hover .category-arrow-img {
+            transform: translateX(10px);
+        }
+
+
+        /* IMAGE COLUMN */
+        .brand-image-col {
+            width: 55%; /* Image takes up roughly 55% */
+            position: relative;
+        }
+
+        .brand-image-col img {
+            width: 100%;
+            height: 400px; /* Consistent height */
+            object-fit: cover;
+        }
+
+        /* --- ORGANIC SHAPES (Crucial Detail) --- */
+        
+        /* Shape 1: Top-Left very round (Matches 1st image) */
+        .shape-type-1 {
+            border-radius: 120px 10px 10px 10px;
+        }
+
+        /* Shape 2: Top-Right & Bottom-Left round (Matches 2nd image) */
+        .shape-type-2 {
+            border-radius: 10px 120px 10px 120px;
+        }
+
+        /* Shape 3: Top-Right very round (Matches 3rd image) */
+        .shape-type-3 {
+            border-radius: 10px 120px 10px 10px;
+        }
+/* END SECTION D */
+/* END SECTION D */
+/* END SECTION D */
+/* END SECTION D */
+
+
+/*<!-- START OF SECTION E -->
+  <!-- START OF SECTION E -->
+  <!-- START OF SECTION E -->
+  <!-- START OF SECTION E --> */
+/* --- UTILS FOR THIS SECTION ONLY --- */
+.sec-e-category * {
+            box-sizing: border-box;
+        }
+
+        /* --- SECTION E CONTAINER --- */
+        .sec-e-category {
+            background-color: #ffffff;
+ 
+ 
+            width: 100%;
+        }
+
+        .sec-e-inner {
+            max-width: 1200px; /* Wider container for 5 items */
+            margin: 0 auto;
+            padding-top: 70px;
+            padding-bottom: 94px;
+            padding-left: 50px;
+            padding-right: 50px;
+            border: 1px solid red;
+        }
+
+        /* --- HEADER AREA --- */
+        .sec-e-head {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .sec-e-eng-title
+          {
+              display: block;
+              font-size: 15px;
+              letter-spacing: 0.15em;
+              color: #000000;
+              text-transform: uppercase;
+              margin-bottom: -11px;
+          }
+
+        .sec-e-jp-title {
+            font-size: 28px;
+            font-weight: 500; /* Medium weight */
+            margin: 0 0 14px 0;
+            letter-spacing: 0.2em; /* Wide spacing for Japanese title */
+            color: #333;
+        }
+
+        /* The small divider line */
+        .sec-e-divider {
+            width: 62px;
+            height: 1px;
+            background-color: #999;
+            margin: 0 auto;
+        }
+
+        /* --- GRID LAYOUT (5 Items) --- */
+        .sec-e-list {
+            display: flex;
+            justify-content: space-between; /* Spreads 5 items evenly */
+            gap: 20px; /* Space between items */
+        }
+
+        /* --- INDIVIDUAL ITEM --- */
+        .sec-e-item {
+            display: block;
+            width: 18%; /* 5 items * 18% = 90% + gaps */
+            text-decoration: none;
+            group: hover; /* For transitions */
+        }
+
+        /* IMAGE WRAPPER */
+        .sec-e-fig {
+            margin: 0 0 20px 0;
+            width: 100%;
+            position: relative;
+            overflow: hidden; /* Keeps image contained */
+        }
+
+        /* Aspect Ratio Trick for perfect Squares */
+        .sec-e-fig::before {
+            content: "";
+            display: block;
+            padding-top: 100%; /* Makes height = width (1:1 square) */
+        }
+
+        .sec-e-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: opacity 0.4s ease, transform 0.4s ease;
+        }
+
+        /* Hover Effect */
+        .sec-e-item:hover .sec-e-img {
+            opacity: 0.9;
+            transform: scale(1.03); /* Subtle zoom */
+        }
+
+        /* TEXT LABEL */
+        .sec-e-name {
+            font-size: 13px;
+            color: #333;
+            text-align: center;
+            letter-spacing: 0.1em;
+            margin: 0;
+            font-weight: 400;
+        }
+
+/* <!-- END  OF SECTION E -->
+  <!-- END  OF SECTION E -->
+  <!-- END  OF SECTION E -->
+  <!-- END  OF SECTION E --> */
+
+
+/* <!-- START OF SECTION F -->
+  <!-- START OF SECTION F -->
+  <!-- START OF SECTION F -->
+  <!-- START OF SECTION F --> */
+/* --- UTILS FOR SECTION F --- */
+.sec-f-products * {
+            box-sizing: border-box;
+        }
+
+        .sec-f-products {
+            background-color: #ffffff;
+            padding: 0px 0 72px;
+            width: 100%;
+        }
+
+        .sec-f-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 50px;
+            border: 1px solid red;
+        }
+
+        /* --- HEADER (Reusing visual style but unique classes) --- */
+        .sec-f-head {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .sec-f-eng-title {
+            display: block;
+            font-size: 15px;
+            letter-spacing: 0.75px;
+            color: #000000;
+            margin-bottom: 1px;
+            text-transform: uppercase;
+        }
+
+        .sec-f-jp-title {
+            font-family: 'Noto Serif JP', serif;
+            font-size: 28px;
+            font-weight: 500;
+            margin: 0 0 25px 0;
+            letter-spacing: 0.2em;
+            color: #333;
+        }
+
+        .sec-f-divider {
+            width: 62px;
+            height: 1px;
+            background-color: #999;
+            margin: 0 auto;
+        }
+
+        /* --- PRODUCT GRID --- */
+        .sec-f-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 4 Columns */
+            gap: 50px 20px; /* 50px vertical gap, 20px horizontal gap */
+            margin-bottom: 80px;
+        }
+
+        /* --- PRODUCT CARD --- */
+        .sec-f-card {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        /* Image Wrapper (Square) */
+        .sec-f-img-box {
+            position: relative;
+            width: 100%;
+            padding-top: 100%; /* Creates 1:1 Aspect Ratio */
+            background-color: #f9f9f9; /* Placeholder background */
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .sec-f-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        /* Hover Zoom Effect */
+        .sec-f-card:hover .sec-f-img {
+            transform: scale(1.05);
+        }
+
+        /* Text Styling */
+        .sec-f-text {
+            font-family: 'Noto Serif JP', serif;
+            font-size: 14px;
+            color: #000000;
+            letter-spacing: 0.84px;
+            line-height: 1.8; /* Adjusted for readability on multi-line text */
+            text-align: left;
+            margin: 0;
+        }
+
+        /* --- VIEW MORE LINK --- */
+        .sec-f-footer {
+            margin-top: 60px;
+            text-align: end;
+            margin-right: 25px;
+        }
+
+        .sec-f-viewmore-link {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            cursor: pointer;
+            group: hover;
+        }
+
+        .sec-f-viewmore-text {
+        margin-right: 15px;
+            font-size: 15px;
+            color: #000000;
+            letter-spacing: 0.75px;
+            text-transform: uppercase;
+            margin-bottom: -4px;
+            transition: color 0.3s;
+        }
+
+        /* The Arrow Image Class */
+        .category-arrow-img {
+            width: 184px; /* Adjust length of the line image */
+            transition: transform 0.3s;
+            display: block;
+        }
+
+        /* Hover Animations */
+        .sec-f-viewmore-link:hover .sec-f-viewmore-text {
+            color: #000;
+        }
+        
+        .sec-f-viewmore-link:hover .category-arrow-img {
+            transform: translateX(10px);
+        }
+
+
+
+/* <!-- End OF SECTION F -->
+  <!-- End OF SECTION F -->
+  <!-- End OF SECTION F -->
+  <!-- End OF SECTION F --> */
+
+
+/* <!-- START OF SECTION G -->
+  <!-- START OF SECTION G -->
+  <!-- START OF SECTION G -->
+  <!-- START OF SECTION G --> */
+
+/* --- UTILS FOR SECTION G --- */
+.sec-g-news * {
+            box-sizing: border-box;
+        }
+
+        .sec-g-news {
+            background-color: #FAF6F2; /* Light Beige Background from screenshot */
+            padding: 80px 0 100px;
+            width: 100%;
+        }
+
+        .sec-g-inner {
+            max-width: 1200px; /* Slightly narrower for reading focus */
+            margin: 0 auto;
+            padding: 0 50px;
+
+            border: 1px solid red;
+        }
+
+        /* --- HEADER AREA --- */
+        .sec-g-header {
+            margin-bottom: 20px;
+            text-align: left; /* Left aligned based on screenshot */
+            padding-left: 115px;
+          }
+
+        .sec-g-eng-label {
+            display: block;
+
+            font-size: 15px;
+            letter-spacing: 0.75px;
+            color: #000000;
+            margin-bottom: -15px;
+            text-transform: uppercase;
+        }
+
+        .sec-g-jp-title {
+            font-size: 35px;
+            font-weight: 400; /* Regular weight */
+            margin: 0;
+            color: #333;
+            letter-spacing: 1.4px;
+        }
+
+        /* --- DIVIDER LINE --- */
+        .sec-g-divider {
+            width: 100%;
+            height: 1px;
+            background-color: #ccc; /* Light gray line */
+            margin-bottom: 0;
+        }
+
+        /* --- NEWS LIST --- */
+        .sec-g-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            padding-left: 115px;
+        }
+
+        .sec-g-item {
+            border-bottom: 1px solid transparent; /* Optional: add border if multiple items */
+            padding-bottom: 20px;
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+
+        .sec-g-item:first-child {
+            padding-top: 30px;
+        }
+
+        /* Date Styling */
+        .sec-g-date {
+            font-family: 'Noto Serif JP', serif;
+            font-size: 15px;
+            color: #000000;
+            width: 120px; /* Fixed width for alignment */
+            flex-shrink: 0;
+            letter-spacing: 0.6px;
+        }
+
+        /* Category Styling */
+        .sec-g-cat {
+            font-family: 'Noto Serif JP', serif;
+            font-size: 15px;
+            font-weight: 500;
+            color: #000000;
+            margin-right: 40px; /* Space between category and title */
+            flex-shrink: 0;
+        }
+
+        /* Title / Link Styling */
+        .sec-g-link {
+            font-family: 'Noto Serif JP', serif;
+            font-size: 15px;
+            color: #000000;
+            text-decoration: none;
+            letter-spacing: 0.05em;
+            transition: opacity 0.3s;
+        }
+
+        .sec-g-link:hover {
+            opacity: 0.7;
+            text-decoration: underline;
+        }
+
+
+
+/* <!-- END OF SECTION G -->
+  <!-- END OF SECTION G -->
+  <!-- END OF SECTION G -->
+  <!-- END OF SECTION G --> */
+
+
+/* <!-- START OF SECTION H(footer) -->
+  <!-- START OF SECTION H(footer) -->
+  <!-- START OF SECTION H(footer) -->
+  <!-- START OF SECTION H(footer) --> */
+
+
+/* --- UTILS FOR FOOTER --- */
+.sec-footer * {
+            box-sizing: border-box;
+        }
+
+        .sec-footer {
+          background-color: #4D5C41;
+          color: #ffffff;
+          width: 100%;
+          padding: 56px 0 84px;
+        }
+
+        /* The specific container width requested */
+        .sec-footer-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 30px; /* Left/Right padding requested */
+            display: flex;
+            justify-content: space-between; /* Creates the 3 columns */
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin-bottom: 60px; /* Space between content and copyright */
+        }
+
+        /* --- LEFT COLUMN (Logo & Address) --- */
+        .sec-footer-col-left {
+            width: 35%; /* Approx width */
+        }
+
+        .sec-footer-logo-img {
+            height: auto;
+            display: block;
+            margin-bottom: 30px;
+            /* If your logo is black text, use this filter to make it white: */
+            /* filter: brightness(0) invert(1); */
+        }
+
+        .sec-footer-address {
+            font-size: 17px;
+            line-height: 31px;
+            margin: 0;
+            font-weight: 300;
+            letter-spacing: 0.68px;
+        }
+
+        /* --- MIDDLE COLUMN (Main Navigation) --- */
+        .sec-footer-col-mid {
+            width: 20%;
+            padding-top: 10px; /* Slight alignment adjustment */
+        }
+
+        .sec-footer-nav-main {
+          list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 52px;
+        }
+
+        .sec-footer-nav-main li {
+            /* margin-bottom: 22px; */
+        }
+
+        .sec-footer-nav-main a {
+            font-size: 20px;
+            color: #ffffff;
+            text-decoration: none;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: opacity 0.3s;
+            font-family: "trajan-pro-3", serif;
+font-weight: 400;
+font-style: normal;
+        }
+
+        .sec-footer-nav-main a:hover {
+            opacity: 0.7;
+        }
+
+        /* --- RIGHT COLUMN (Contact & Sub Nav) --- */
+        .sec-footer-col-right {
+            width: 30%;
+            padding-top: 17px;
+        }
+
+        /* Contact Button */
+        .sec-footer-contact-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            max-width: 270px; /* Button width */
+            height: 50px;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+            letter-spacing: 1px;
+            margin-bottom: 34px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .sec-footer-contact-btn svg {
+          width: 26px;
+          height: 22px;
+          margin-left: 12px;
+          stroke: #ffffff;
+          stroke-width: 1.2;
+          fill: none;
+          transition: stroke 0.3s;
+          /* padding-top: 7px; */
+          position: relative;
+          top: 1px;
+          border-radius: 3px;
+      }
+
+        .sec-footer-contact-btn:hover {
+            background-color: #ffffff;
+            color: #4D5C41;
+        }
+        
+        .sec-footer-contact-btn:hover svg {
+            stroke: #4D5C41;
+        }
+
+        /* Sub Navigation (Privacy, etc.) */
+        .sec-footer-nav-sub {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sec-footer-nav-sub li {
+            margin-bottom: 18px;
+        }
+
+        .sec-footer-nav-sub a {
+            font-size: 17px;
+            color: #ffffff;
+            text-decoration: none;
+            letter-spacing: 0.68px;
+            opacity: 0.9;
+            transition: opacity 0.3s;
+        }
+
+        .sec-footer-nav-sub a:hover {
+            opacity: 0.6;
+        }
+
+        /* --- COPYRIGHT --- */
+        .sec-footer-copyright {
+            text-align: center;
+            font-size: 17px;
+            letter-spacing: 0.68px;
+            opacity: 0.8;
+            border-top: 1px solid rgba(255,255,255,0.0); /* Optional visual separator space */
+            padding-top: 0;
+            font-family: "trajan-pro-3", serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+
+
+/* <!-- END OF SECTION H(footer) -->
+<!-- END OF SECTION H(footer) -->
+<!-- END OF SECTION H(footer) -->
+<!-- END OF SECTION H(footer) --> */
+
+/* Custom rules to remove line on sub-menu hover */
+.bm-list a:hover {
+    text-decoration: none !important;
+}
+
+.bm-list a::after {
+    content: none !important;
+}
+
+.mm-link-list a:hover {
+    text-decoration: none !important;
+}
+
+.mm-link-list a::after {
+    content: none !important;
+}
+
+    </style>
+</head>
+<body>
+<!-- START OF SECTION A -->
+<!-- START OF SECTION A -->
+<!-- START OF SECTION A -->
+<!-- START OF SECTION A -->
+<header class="site-header">
+    <div class="header-inner">
+        
+        <!-- TOP ROW -->
+        <div class="header-top">
+            
+             <!-- Logo (Left) -->
+             <div class="logo">
+              <h1>
+                  <a href="/">
+                      <img src="img/logo_yoko.png" alt="BOTANICAL MARKET">
+                  </a>
+              </h1>
+          </div>
+
+            <!-- Right Side Elements -->
+            <div class="header-actions">
+                
+                <!-- UPDATED: Search Bar with Icon Inside -->
+                <form class="search-form" action="/search" method="get">
+                    <input type="text" name="q" class="search-input" placeholder="商品名で検索">
+                    <button type="submit" class="search-submit-btn" aria-label="検索">
+                     <img src="img/search.svg" alt="">
+                    </button>
+                </form>
+
+                <!-- Icons: User, Cart (Search removed from here) -->
+                <div class="icon-nav">
+                    <!-- User Icon -->
+                    <a href="/mypage" class="icon-btn" aria-label="マイページ">
+                        <img src="img/account.svg" alt="">
+                    </a>
+                    <!-- Cart Icon -->
+                    <a href="/cart" class="icon-btn" aria-label="カート">
+                      <img src="img/cart.svg" alt="">
+                    </a>
+                </div>
+
+                <!-- Text Buttons -->
+                <div class="auth-nav">
+                    <a href="/register" class="btn btn-outline">会員登録</a>
+                    <a href="/login" class="btn btn-fill">ログイン</a>
+                    <a href="/contact" class="btn btn-contact">
+                        CONTACT
+                        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- BOTTOM ROW (Navigation) -->
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="/">HOME</a></li>
+                <li class="nav-item"><a href="/about">ABOUT</a></li>
+                <!-- === BRAND NAVIGATION ITEM === -->
+                <li class="nav-item nav-item-brand">
+                    <a href="/brand">BRAND <span class="chevron"></span></a>
+                    
+                    <!-- DROPDOWN MENU -->
+                    <div class="bm-dropdown-wrapper">
+                        <div class="bm-inner">
+                            <ul class="bm-list">
+                                <li><a href="/brand/aromatherapy">THE AROMATHERAPY COMPANY</a></li>
+                                <li><a href="/brand/kurashi">KURASHI natural</a></li>
+                                <li><a href="/brand/h-natural">h natural</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                 <!-- === MODIFIED CATEGORY ITEM START === -->
+                 <!-- === MODIFIED CATEGORY ITEM START === -->
+
+                <li class="nav-item nav-item-category">
+                    <a href="/category">CATEGORY <span class="chevron"></span></a>
+                    <!-- THE MEGA MENU DROPDOWN -->
+                    <!-- THE MEGA MENU DROPDOWN -->
+                    <!-- THE MEGA MENU DROPDOWN -->
+                    <!-- THE MEGA MENU DROPDOWN -->
+                    <!-- THE MEGA MENU DROPDOWN -->
+                    <!-- THE MEGA MENU DROPDOWN -->
+                    <div class="mm-dropdown-wrapper">
+                                    
+                      <!-- SECTION 1: CATEGORY LINKS (From Image) -->
+                      <div class="mm-links-section">
+                          <div class="mm-inner">
+                              <div class="mm-grid">
+                                  
+                                  <!-- Col 1: Aroma -->
+                                  <div class="mm-col">
+                                      <span class="mm-cat-title">オーガニック アロマ</span>
+                                      <ul class="mm-link-list">
+                                          <li><a href="#">エッセンシャルオイル</a></li>
+                                          <li><a href="#">ブレンドオイル</a></li>
+                                          <li><a href="#">アロマ雑貨</a></li>
+                                      </ul>
+                                  </div>
+
+                                  <!-- Col 2: Skincare -->
+                                  <div class="mm-col">
+                                      <span class="mm-cat-title">オーガニック スキンケア</span>
+                                      <ul class="mm-link-list">
+                                          <li><a href="#">洗顔</a></li>
+                                          <li><a href="#">クレンジング</a></li>
+                                          <li><a href="#">化粧水</a></li>
+                                          <li><a href="#">乳液</a></li>
+                                          <li><a href="#">美容液・オイル</a></li>
+                                          <li><a href="#">パック・フェイスマスク</a></li>
+                                          <li><a href="#">スクラブ・ピーリング</a></li>
+                                          <li><a href="#">バーム</a></li>
+                                          <li><a href="#">クリーム</a></li>
+                                          <li><a href="#">アイクリーム</a></li>
+                                      </ul>
+                                  </div>
+
+                                  <!-- Col 3: Bodycare -->
+                                  <div class="mm-col">
+                                      <span class="mm-cat-title">オーガニック ボディケア</span>
+                                      <ul class="mm-link-list">
+                                          <li><a href="#">ボディソープ</a></li>
+                                          <li><a href="#">ボディクリーム</a></li>
+                                          <li><a href="#">ボディジェル</a></li>
+                                          <li><a href="#">ボディオイル</a></li>
+                                          <li><a href="#">ボディバーム</a></li>
+                                          <li><a href="#">ハンドソープ</a></li>
+                                      </ul>
+                                  </div>
+
+                                  <!-- Col 4: Haircare -->
+                                  <div class="mm-col">
+                                      <span class="mm-cat-title">オーガニック ヘアケア</span>
+                                      <ul class="mm-link-list">
+                                          <li><a href="#">ヘアカラー ヘナ 100%</a></li>
+                                          <li><a href="#">ヘアカラー インディゴ 100%</a></li>
+                                          <li><a href="#">ヘアカラー ヘナ＆ハーブ</a></li>
+                                      </ul>
+                                  </div>
+
+                                  <!-- Col 5: Healthcare -->
+                                  <div class="mm-col">
+                                      <span class="mm-cat-title">オーガニック ヘルスケア</span>
+                                      <ul class="mm-link-list">
+                                          <li><a href="#">スーパーフード</a></li>
+                                          <li><a href="#">サプリメント</a></li>
+                                          <li><a href="#">ハーブティ</a></li>
+                                          <li><a href="#">ドリンク</a></li>
+                                          <li><a href="#">スパイス</a></li>
+                                      </ul>
+                                  </div>
+
+                              </div>
+                          </div>
+                      </div>
+                      <!-- END SECTION 3 -->
+                    </div>
+                    <!-- END MEGA MENU DROPDOWN -->
+                    <!-- END MEGA MENU DROPDOWN -->
+                    <!-- END MEGA MENU DROPDOWN -->
+                    <!-- END MEGA MENU DROPDOWN -->
+                    <!-- END MEGA MENU DROPDOWN -->
+                    <!-- END MEGA MENU DROPDOWN -->
+                </li>
+                <li class="nav-item"><a href="/products">PRODUCTS</a></li>
+                <li class="nav-item"><a href="/news">NEWS</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+<!-- START OF SECTION B -->
+<!-- START OF SECTION B -->
+<!-- START OF SECTION B -->
+<!-- START OF SECTION B -->
+<!-- START OF SECTION B -->
+<!-- START OF SECTION B -->
+<!-- slider -->
+<!-- <div class="slider">
+  <div class="slider-inner">
+      <div class="slider-item">
+          <img src="img/269A1143-Edit.png" alt="slider-image">
+      </div>
+      <div class="slider-item">
+          <img src="img/269A1143-Edit.png" alt="slider-image">
+      </div>
+      <div class="slider-item">
+          <img src="img/269A1143-Edit.png" alt="slider-image">
+      </div>
+      <div class="slider-item">
+          <img src="img/269A1143-Edit.png" alt="slider-image">
+      </div>
+  </div>
+</div> -->
+
+<div class="slider">
+    <div class="slider-inner">
+        <!-- Added 'active' class to the first item to start -->
+        <div class="slider-item active">
+            <img src="img/269A1143-Edit.png" alt="slider-image">
+        </div>
+        <div class="slider-item">
+            <img src="img/269A1143-Edit.png" alt="slider-image">
+        </div>
+        <div class="slider-item">
+            <img src="img/269A1143-Edit.png" alt="slider-image">
+        </div>
+        <div class="slider-item">
+            <img src="img/269A1143-Edit.png" alt="slider-image">
+        </div>
+    </div>
+  </div>
+
+
+<!-- START OF SECTION C -->
+<!-- START OF SECTION C -->
+<!-- START OF SECTION C -->
+<!-- START OF SECTION C -->
+<!-- START OF SECTION C -->
+<!-- START OF SECTION C -->
+<section class="intro-section">
+  <div class="container">
+      
+      <!-- 1. The Overlapping Graphic -->
+      <img src="img/logo_2.png" alt="Botanical Market Stamp" class="botanical-stamp">
+
+      <!-- 2. Concept Text -->
+      <div class="concept-block">
+          <span class="concept-label">CONCEPT</span>
+          <h2 class="concept-heading">仕入れをもっと“心地よく”、ストーリーのある商材選びを。</h2>
+          <p class="concept-body">
+              BOTANICAL marketは、自然の恵みを大切にしたプロダクトを集めたセレクト型の卸モールです。<br>
+              国内外のナチュラルブランドを厳選し、ショップやサロン、カフェなど、ライフスタイルに寄り添う店舗様へお届けします。
+          </p>
+      </div>
+
+      <!-- 3. Gray Banner -->
+      <div class="membership-banner">
+          <div class="banner-text-group">
+              <span class="banner-brand">BOTANICAL market</span>
+              <h3 class="banner-title">法人・個人事業主様専用サイト（完全会員制）</h3>
+              <p class="banner-note">商品をご購入・検討のお客様は、会員登録・ログイン後に卸価格が表示されます。</p>
+          </div>
+
+          <div class="banner-cta">
+              <a href="/register" class="circle-btn">
+                  <span class="btn-text">会員登録は<br>こちらから</span>
+                  <div class="btn-arrow">
+                    <img src="img/arrow.png" alt="">
+                  </div>
+              </a>
+          </div>
+      </div>
+
+  </div>
+</section>
+<!-- END OF SECTION C -->
+<!-- END OF SECTION C -->
+<!-- END OF SECTION C -->
+<!-- END OF SECTION C -->
+
+
+<!-- START OF SECTION D -->
+<!-- START OF SECTION D -->
+<!-- START OF SECTION D -->
+<!-- START OF SECTION D -->
+<!-- START OF SECTION D -->
+<section class="brand-section">
+  <div class="container-narrow">
+      
+      <!-- Section Title -->
+      <div class="section-header">
+          <span class="section-subtitle">BRAND</span>
+          <h2 class="section-title">ブランド一覧</h2>
+      </div>
+
+      <!-- BRAND 1 (Text Left / Image Right) -->
+      <div class="brand-row">
+          <!-- Text Side -->
+          <div class="brand-content">
+              <div class="brand-logo-container">
+                  <!-- Replace with your 'The Aromatherapy Company' Logo -->
+                  <img src="img/brand/aroma-top-logo.png" alt="THE AROMATHERAPY COMPANY">
+              </div>
+              <p class="brand-description">
+                  自然の香りがもたらす癒しと心地よさを届ける<br>
+                  ライフスタイルブランドです。<br>
+                  上質なエッセンシャルオイルを使用した<br>
+                  ホームフレグランスやボディケアなど、<br>
+                  日常に穏やかな癒しをもたらすアイテムを展開。<br>
+                  香りを大切にするショップやサロン様へお届けします。
+              </p>
+              <a href="/brand/aromatherapy" class="category-link-wrapper">
+                  <span class="category-link-text">CATEGORY PAGE</span>
+                  <!-- Replace with your 'Straight line' image -->
+                  <img src="img/brand/brand-arrow.svg" alt="arrow" class="category-arrow-img">
+              </a>
+          </div>
+          <!-- Image Side -->
+          <div class="brand-image-col">
+              <!-- Shape 1: Top-Left Curve -->
+              <img src="img/brand/the-aroma.png" alt="arrow" class="category-arrow-img">
+
+          </div>
+      </div>
+
+      <!-- BRAND 2 (Image Left / Text Right) - AUTOMATICALLY REVERSED BY CSS -->
+      <div class="brand-row">
+          <!-- Text Side -->
+          <div class="brand-content">
+              <div class="brand-logo-container">
+                  <!-- Replace with your 'Kurashi Natural' Logo -->
+                  <img src="img/brand/kurashi-natural-logo.svg" alt="KURASHI natural">
+              </div>
+              <p class="brand-description">
+                  自然の香りがもたらす癒しと心地よさを届ける<br>
+                  ライフスタイルブランドです。<br>
+                  上質なエッセンシャルオイルを使用した<br>
+                  ホームフレグランスやボディケアなど、<br>
+                  日常に穏やかな癒しをもたらすアイテムを展開。<br>
+                  香りを大切にするショップやサロン様へお届けします。
+              </p>
+              <a href="/brand/kurashi" class="category-link-wrapper">
+                  <span class="category-link-text">CATEGORY PAGE</span>
+                  <!-- Replace with your 'Straight line' image -->
+                  <img src="img/brand/brand-arrow.svg" alt="arrow" class="category-arrow-img">
+              </a>
+          </div>
+          <!-- Image Side -->
+          <div class="brand-image-col">
+              <!-- Shape 2: Diagonal Curve -->
+              <img src="img/brand/kurashi-natural.png" alt="Kurashi Product" class="organic-img shape-type-2">
+          </div>
+      </div>
+
+      <!-- BRAND 3 (Text Left / Image Right) -->
+      <div class="brand-row">
+          <!-- Text Side -->
+          <div class="brand-content">
+              <div class="brand-logo-container">
+                  <!-- Replace with your 'h natural' Logo -->
+                  <img src="img/brand/hena-logo.svg" alt="h natural">
+              </div>
+              <p class="brand-description">
+                  自然の香りがもたらす癒しと心地よさを届ける<br>
+                  ライフスタイルブランドです。<br>
+                  上質なエッセンシャルオイルを使用した<br>
+                  ホームフレグランスやボディケアなど、<br>
+                  日常に穏やかな癒しをもたらすアイテムを展開。<br>
+                  香りを大切にするショップやサロン様へお届けします。
+              </p>
+              <a href="/brand/h-natural" class="category-link-wrapper">
+                  <span class="category-link-text">CATEGORY PAGE</span>
+                  <!-- Replace with your 'Straight line' image -->
+                  <img src="img/brand/brand-arrow.svg" alt="arrow" class="category-arrow-img">
+              </a>
+          </div>
+          <!-- Image Side -->
+          <div class="brand-image-col">
+              <!-- Shape 3: Top-Right Curve -->
+              <img src="img/brand/hena-natural.png" alt="h natural Product" class="organic-img shape-type-3">
+          </div>
+      </div>
+
+  </div>
+</section>
+<!-- END OF SECTION D -->
+<!-- END OF SECTION D -->
+<!-- END OF SECTION D -->
+<!-- END OF SECTION D -->
+<!-- END OF SECTION D -->
+
+
+<!-- START OF SECTION E -->
+<!-- START OF SECTION E -->
+<!-- START OF SECTION E -->
+<!-- START OF SECTION E -->
+<!-- START SECTION E -->
+<section class="sec-e-category">
+  <div class="sec-e-inner">
+      
+      <!-- Header -->
+      <div class="sec-e-head">
+          <span class="sec-e-eng-title">CATEGORY</span>
+          <h2 class="sec-e-jp-title">カテゴリ</h2>
+          <div class="sec-e-divider"></div>
+      </div>
+
+      <!-- List of 5 Items -->
+      <div class="sec-e-list">
+          
+          <!-- Item 1 -->
+          <a href="/category/aroma" class="sec-e-item">
+              <figure class="sec-e-fig">
+                  <img src="img/category/20240705ヘナ-3549.jpg" alt="Organic Aroma" class="sec-e-img">
+              </figure>
+              <p class="sec-e-name">オーガニック アロマ</p>
+          </a>
+
+          <!-- Item 2 -->
+          <a href="/category/skincare" class="sec-e-item">
+              <figure class="sec-e-fig">
+                  <img src="img/category/269A0772.jpg" alt="Organic Skincare" class="sec-e-img">
+              </figure>
+              <p class="sec-e-name">オーガニック スキンケア</p>
+          </a>
+
+          <!-- Item 3 -->
+          <a href="/category/bodycare" class="sec-e-item">
+              <figure class="sec-e-fig">
+                  <img src="img/category/269A1143-Edit.jpg" alt="Organic Bodycare" class="sec-e-img">
+              </figure>
+              <p class="sec-e-name">オーガニック ボディケア</p>
+          </a>
+
+          <!-- Item 4 -->
+          <a href="/category/haircare" class="sec-e-item">
+              <figure class="sec-e-fig">
+                  <img src="img/category/269A1198.jpg" alt="Organic Haircare" class="sec-e-img">
+              </figure>
+              <p class="sec-e-name">オーガニック ヘアケア</p>
+          </a>
+
+          <!-- Item 5 -->
+          <a href="/category/healthcare" class="sec-e-item">
+              <figure class="sec-e-fig">
+                  <img src="img/category/imgi_2_e4b968_b5f28bf2e8174bce90576303b9cde388~mv2.jpg" alt="Organic Healthcare" class="sec-e-img">
+              </figure>
+              <p class="sec-e-name">オーガニック ヘルスケア</p>
+          </a>
+
+      </div>
+
+  </div>
+</section>
+<!-- END SECTION E -->
+
+<!-- END START OF SECTION E -->
+<!-- END START OF SECTION E -->
+<!-- END START OF SECTION E -->
+<!-- END START OF SECTION E -->
+
+
+<!-- START OF SECTION F -->
+<!-- START OF SECTION F -->
+<!-- START OF SECTION F -->
+<!-- START OF SECTION F -->
+
+<section class="sec-f-products">
+  <div class="sec-f-inner">
+      
+      <!-- Header -->
+      <div class="sec-f-head">
+          <span class="sec-f-eng-title">PRODUCTS</span>
+          <h2 class="sec-f-jp-title">商品一覧</h2>
+          <div class="sec-f-divider"></div>
+      </div>
+
+      <!-- Grid (16 Items) -->
+      <div class="sec-f-grid">
+
+          <!-- Row 1 -->
+          <a href="#" class="sec-f-card">
+              <div class="sec-f-img-box"><img src="img/products/269A0759.jpg" alt="Product" class="sec-f-img"></div>
+              <p class="sec-f-text">【THE AROMA THERAPY】 シダー</p>
+          </a>
+          <a href="#" class="sec-f-card">
+              <div class="sec-f-img-box"><img src="img/products/20240705ヘナ-3429-Edit.jpg" alt="Product" class="sec-f-img"></div>
+              <p class="sec-f-text">【KURASHI natural】 有機JASモリンガ</p>
+          </a>
+          <!-- kam chai chaina haitha  -->
+          <a href="#" class="sec-f-card">
+              <div class="sec-f-img-box"><img src="img/products/269A3124-Edit.jpg" alt="Product" class="sec-f-img"></div>
+              <p class="sec-f-text">【THE AROMA THERAPY】 Luxury ジェントルリファイニング</p>
+          </a>
+          <a href="#" class="sec-f-card">
+              <div class="sec-f-img-box"><img src="img/products/269A8475-Edit.jpg" alt="Product" class="sec-f-img"></div>
+              <p class="sec-f-text">【H natural】 ヘナオーガニックヘアカラー</p>
+          </a>
+
+          <!-- Row 2 -->
+          <a href="#" class="sec-f-card">
+              <div class="sec-f-img-box"><img src="img/products/269A8475-Edit.jpg" alt="Product" class="sec-f-img"></div>
+              <p class="sec-f-text">【KURASHI natural】 有機JASサジー</p>
+          </a>
+          <a href="#" class="sec-f-card">
+              <div class="sec-f-img-box"><img src="img/products/269A8475-Edit.jpg" alt="Product" class="sec-f-img"></div>
+              <p class="sec-f-text">【KURASHI natural】 有機JASジンジャー</p>
+          </a>
+          <a href="#" class="sec-f-card">
+              <div class="sec-f-img-box"><img src="img/products/269A8475-Edit.jpg" alt="Product" class="sec-f-img"></div>
+              <p class="sec-f-text">【KURASHI natural】 有機JASたんぽぽコーヒー</p>
+          </a>
+          <a href="#" class="sec-f-card">
+              <div class="sec-f-img-box"><img src="img/products/269A8475-Edit.jpg" alt="Product" class="sec-f-img"></div>
+              <p class="sec-f-text">【THE AROMA THERAPY】 アイクリーム</p>
+          </a>
+
+          <!-- Row 3 -->
+          <a href="#" class="sec-f-card">
+              <div class="sec-f-img-box"><img src="img/products/269A3124-Edit.jpg" alt="Product" class="sec-f-img"></div>
+              <p class="sec-f-text">【KURASHI natural】 有機JASセイロンシナモン</p>
+          </a>
+          <a href="#" class="sec-f-card">
+              <div class="sec-f-img-box"><img src="img/products/269A3124-Edit.jpg" alt="Product" class="sec-f-img"></div>
+              <p class="sec-f-text">【THE AROMA THERAPY】 イージープレス シナジーブレンド精油</p>
+          </a>
+          <a href="#" class="sec-f-card">
+              <div class="sec-f-img-box"><img src="img/products/269A3124-Edit.jpg" alt="Product" class="sec-f-img"></div>
+              <p class="sec-f-text">【KURASHI natural】 有機JAS玄米コーヒー</p>
+          </a>
+          <a href="#" class="sec-f-card">
+              <div class="sec-f-img-box"><img src="img/products/269A3124-Edit.jpg" alt="Product" class="sec-f-img"></div>
+              <p class="sec-f-text">【KURASHI natural】 有機JASクコの実</p>
+          </a>
+
+       <!-- Row 4 -->
+       <a href="#" class="sec-f-card">
+        <div class="sec-f-img-box"><img src="img/products/269A8475-Edit.jpg" alt="Product" class="sec-f-img"></div>
+            <p class="sec-f-text">【THE AROMA THERAPY】 ネロリクレンジングウォッシュ</p>
+        </a>
+        <a href="#" class="sec-f-card">
+            <div class="sec-f-img-box"><img src="img/products/269A8475-Edit.jpg" alt="Product" class="sec-f-img"></div>
+            <p class="sec-f-text">【KURASHI natural】 有機JASザクロジュース</p>
+        </a>
+        <a href="#" class="sec-f-card">
+            <div class="sec-f-img-box"><img src="img/products/269A8475-Edit.jpg" alt="Product" class="sec-f-img"></div>
+            <p class="sec-f-text">【THE AROMA THERAPY】 レモン</p>
+        </a>
+        <a href="#" class="sec-f-card">
+            <div class="sec-f-img-box"><img src="img/products/269A8475-Edit.jpg" alt="Product" class="sec-f-img"></div>
+            <p class="sec-f-text">【KURASHI natural】 有機JASブラックペッパー</p>
+        </a>
+
+      </div>
+
+      <!-- View More Link -->
+      <div class="sec-f-footer">
+          <a href="/products" class="sec-f-viewmore-link">
+              <span class="sec-f-viewmore-text">VIEW MORE</span>
+              <img src="img/brand/brand-arrow.svg" alt="arrow" class="category-arrow-img">
+          </a>
+      </div>
+
+  </div>
+</section>
+
+
+<!-- End OF SECTION F -->
+<!-- End OF SECTION F -->
+<!-- End OF SECTION F -->
+<!-- End OF SECTION F -->
+
+
+<!-- START OF SECTION G -->
+<!-- START OF SECTION G -->
+<!-- START OF SECTION G -->
+<!-- START OF SECTION G -->
+
+<section class="sec-g-news">
+  <div class="sec-g-inner">
+      
+      <!-- Header -->
+      <div class="sec-g-header">
+          <span class="sec-g-eng-label">NEWS</span>
+          <h2 class="sec-g-jp-title">お知らせ</h2>
+      </div>
+
+      <!-- Horizontal Line -->
+      <div class="sec-g-divider"></div>
+
+      <!-- News List -->
+      <div class="sec-g-list">
+          
+          <!-- News Item 1 -->
+          <article class="sec-g-item">
+              <span class="sec-g-date">2025.2.20</span>
+              <span class="sec-g-cat">【お知らせ】</span>
+              <a href="/news/20250220" class="sec-g-link">BOTANICAL market 卸サイト開設しました。</a>
+          </article>
+          <article class="sec-g-item">
+              <span class="sec-g-date">2025.2.21</span>
+              <span class="sec-g-cat">【お知らせ】</span>
+              <a href="/news/20250220" class="sec-g-link">BOTANICAL market 卸サイト開設しました。</a>
+          </article>
+          <article class="sec-g-item">
+              <span class="sec-g-date">2025.2.22</span>
+              <span class="sec-g-cat">【お知らせ】</span>
+              <a href="/news/20250220" class="sec-g-link">BOTANICAL market 卸サイト開設しました。</a>
+          </article>
+
+          <!-- You can copy 'sec-g-item' here to add more news rows if needed -->
+
+      </div>
+
+  </div>
+</section>
+
+
+<!-- END OF SECTION G -->
+<!-- END OF SECTION G -->
+<!-- END OF SECTION G -->
+<!-- END OF SECTION G -->
+
+
+<!-- START OF SECTION H(footer) -->
+<!-- START OF SECTION H(footer) -->
+<!-- START OF SECTION H(footer) -->
+<!-- START OF SECTION H(footer) -->
+
+
+<footer class="sec-footer">
+        
+  <!-- Main Content (1100px width) -->
+  <div class="sec-footer-inner">
+      
+      <!-- Left Column: Logo & Address -->
+      <div class="sec-footer-col-left">
+          <!-- Replace 'logo-white.png' with your white logo version -->
+          <a href="/">
+              <img src="img/footer-main.png" alt="BOTANICAL MARKET" class="sec-footer-logo-img">
+          </a>
+          <div class="sec-footer-address">
+              <p>株式会社サプリアル</p>
+              <p>〒710-0054 岡山県倉敷市本町9-18</p>
+              <p>TEL 086-486-4567</p>
+          </div>
+      </div>
+
+      <!-- Middle Column: Main Navigation -->
+      <div class="sec-footer-col-mid">
+          <ul class="sec-footer-nav-main">
+              <li><a href="/about">ABOUT</a></li>
+              <li><a href="/brand">BRAND</a></li>
+              <li><a href="/category">CATEGORY</a></li>
+              <li><a href="/products">PRODUCTS</a></li>
+              <li><a href="/news">NEWS</a></li>
+          </ul>
+      </div>
+
+      <!-- Right Column: Contact & Sub Navigation -->
+      <div class="sec-footer-col-right">
+          <!-- Contact Button -->
+          <a href="/contact" class="sec-footer-contact-btn">
+              CONTACT
+              <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </a>
+
+          <!-- Sub Links -->
+          <ul class="sec-footer-nav-sub">
+              <li><a href="/privacy">プライバシーポリシー</a></li>
+              <li><a href="/terms">利用規約</a></li>
+              <li><a href="/law">特定商取引法に基づく表記</a></li>
+          </ul>
+      </div>
+
+  </div>
+
+  <!-- Copyright -->
+  <div class="sec-footer-copyright">
+      Copyright © BOTANICAL market All Rights Reserved.
+  </div>
+
+</footer>
+
+
+<!-- END OF SECTION H(footer) -->
+<!-- END OF SECTION H(footer) -->
+<!-- END OF SECTION H(footer) -->
+<!-- END OF SECTION H(footer) -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const slides = document.querySelectorAll('.slider-item');
+        const totalSlides = slides.length;
+        let currentSlide = 0;
+        const intervalTime = 5000; // 5000ms = 5 seconds per slide
+    
+        function nextSlide() {
+            // 1. Remove 'active' class from current slide
+            slides[currentSlide].classList.remove('active');
+    
+            // 2. Calculate next slide index (Loop back to 0 if at end)
+            currentSlide = (currentSlide + 1) % totalSlides;
+    
+            // 3. Add 'active' class to next slide
+            slides[currentSlide].classList.add('active');
+        }
+    
+        // Start the automatic slideshow
+        setInterval(nextSlide, intervalTime);
+    });
+    </script>
+</body>
+</html>

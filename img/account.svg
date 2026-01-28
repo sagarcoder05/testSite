@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.89" height="33.02" viewBox="0 0 31.89 33.02">
+  <g id="account" transform="translate(0.75 0.75)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="6" cy="6" r="6" transform="translate(9.2)" fill="rgba(0,0,0,0)"/>
+    <path id="Ellipse_1_-_Outline" data-name="Ellipse 1 - Outline" d="M6-.75A6.75,6.75,0,1,1-.75,6,6.758,6.758,0,0,1,6-.75Zm0,12A5.25,5.25,0,1,0,.75,6,5.256,5.256,0,0,0,6,11.25Z" transform="translate(9.2)"/>
+    <path id="Path_19" data-name="Path 19" d="M8.93,40.65v-3c0-5.79,4.23-10.5,9.45-10.5H29.87c5.22,0,9.45,4.71,9.45,10.5v3" transform="translate(-8.93 -9.13)" fill="rgba(0,0,0,0)"/>
+    <path id="Path_19_-_Outline" data-name="Path 19 - Outline" d="M39.32,41.4a.75.75,0,0,1-.75-.75v-3c0-5.376-3.9-9.75-8.7-9.75H18.38c-4.8,0-8.7,4.374-8.7,9.75v3a.75.75,0,0,1-1.5,0v-3c0-6.2,4.576-11.25,10.2-11.25H29.87c5.624,0,10.2,5.047,10.2,11.25v3A.75.75,0,0,1,39.32,41.4Z" transform="translate(-8.93 -9.13)"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.81" height="34.54" viewBox="0 0 32.81 34.54">
+  <g id="icon_data" transform="translate(0.75 0.75)">
+    <path id="Path_20" data-name="Path 20" d="M13.421,16.72H37.047L37,17,35.336,26.61,20.385,31" transform="translate(-6.69 -7.908)" fill="rgba(0,0,0,0)"/>
+    <path id="Path_20_-_Outline" data-name="Path 20 - Outline" d="M20.384,31.75a.75.75,0,0,1-.211-1.47l14.5-4.258,1.479-8.552H13.421a.75.75,0,0,1,0-1.5H37.047a.75.75,0,0,1,.739.878l-1.71,9.89a.75.75,0,0,1-.528.592L20.6,31.72A.75.75,0,0,1,20.384,31.75Z" transform="translate(-6.69 -7.908)"/>
+    <path id="Path_21" data-name="Path 21" d="M4.69,6.46H9l5.87,23.155L12.724,33.17" transform="translate(-4.69 -6.46)" fill="rgba(0,0,0,0)"/>
+    <path id="Path_21_-_Outline" data-name="Path 21 - Outline" d="M12.723,33.92a.75.75,0,0,1-.641-1.138L14.066,29.5,8.416,7.21H4.69a.75.75,0,0,1,0-1.5H9a.75.75,0,0,1,.727.566L15.6,29.43a.75.75,0,0,1-.085.572l-2.146,3.555A.75.75,0,0,1,12.723,33.92Z" transform="translate(-4.69 -6.46)"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="4" cy="4" r="4" transform="translate(0.31 25.04)" fill="rgba(0,0,0,0)"/>
+    <path id="Ellipse_2_-_Outline" data-name="Ellipse 2 - Outline" d="M4-.75A4.75,4.75,0,1,1-.75,4,4.755,4.755,0,0,1,4-.75Zm0,8A3.25,3.25,0,1,0,.75,4,3.254,3.254,0,0,0,4,7.25Z" transform="translate(0.31 25.04)"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="4" cy="4" r="4" transform="translate(23.31 25.04)" fill="rgba(0,0,0,0)"/>
+    <path id="Ellipse_3_-_Outline" data-name="Ellipse 3 - Outline" d="M4-.75A4.75,4.75,0,1,1-.75,4,4.755,4.755,0,0,1,4-.75Zm0,8A3.25,3.25,0,1,0,.75,4,3.254,3.254,0,0,0,4,7.25Z" transform="translate(23.31 25.04)"/>
+  </g>
+</svg>
