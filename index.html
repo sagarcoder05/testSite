@@ -149,7 +149,7 @@
         /* The Search Icon Button inside the input */
         .search-submit-btn {
             position: absolute;
-            right: 10px;
+            right: 20px;
             top: 50%;
             transform: translateY(-50%);
             background: none;
@@ -159,6 +159,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            max-width: 28px;
         }
 
         .search-submit-btn svg {
@@ -184,6 +185,7 @@
             padding: 0;
             display: flex;
             align-items: center;
+            max-width: 27px;
         }
 
         .icon-btn svg {
@@ -197,7 +199,7 @@
         /* --- ACTION BUTTONS (Auth, Contact) --- */
         .auth-nav {
             display: flex;
-            gap: 15px;
+            gap: 18px;
             align-items: center;
         }
 
@@ -238,7 +240,7 @@
             font-style: normal; */
 
             font-size: 20px;
-            margin-left: 23px;
+            margin-left: 0px;
         }
         
         .btn-contact svg {
@@ -551,6 +553,137 @@
 /* END MEGAMENU CSS */
 
 
+@media(max-width: 1855px){
+    .header-inner {
+    padding-left: 33px;
+    padding-right: 40px;
+}
+}
+@media(max-width: 1600px){
+    .logo img
+ {
+    width: 330px;
+
+}
+.search-input {
+    width: 305px;
+    font-size: 20px;
+}
+
+.nav-item a {
+    font-size: 18px;
+}
+.btn-contact{
+    width: 190px;
+    font-size: 18px;
+}
+.btn {
+    font-size: 20px;
+}
+.icon-btn {
+    max-width: 26px;
+}
+.search-submit-btn {
+    max-width: 26px;
+}
+
+}
+@media(max-width: 1450px){
+    .header-inner {
+        padding-left: 23px;
+        padding-right: 30px;
+    }
+    .header-actions {
+
+    gap: 21px;
+}
+
+.logo img {
+        width: 300px;
+    }
+
+    .btn {
+ 
+    padding: 0 17px;
+
+}
+.btn {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+    .nav-item a {
+        font-size: 17px;
+    }
+
+    .icon-nav
+
+ {
+
+    gap: 26px;
+  
+}
+
+.btn-contact {
+        width: 158px;
+        font-size: 18px;
+        gap: 3px;
+    }
+    .search-input {
+        font-size: 18px;
+    }
+    
+}
+
+
+@media(max-width: 1200px){
+
+    .header-inner {
+        padding-left: 13px;
+        padding-right: 20px;
+    }
+    .search-input {
+        width: 246px;
+    }
+    .logo img {
+        width: 250px;
+    }
+    .btn-contact {
+   
+    margin-left: 10px;
+}
+.nav-list {
+    gap: 30px;
+}
+}
+@media(max-width: 1100px){
+    .search-input
+
+ {
+        width: 210px;
+    }
+    .header-actions {
+        gap: 15px;
+    }
+    .btn {
+        padding: 0 10px;
+    }
+    .btn-contact {
+        width: 141px;
+        
+    }
+    .icon-nav {
+        gap: 20px;
+    }
+}
+
+
+
+
+
+
 /* Main slider css*/
 /* Main slider css*/
 /* Main slider css*/
@@ -609,6 +742,9 @@
 .slider-item.active img {
     transform: scale(1.1); /* Subtle 10% zoom */
 }
+
+
+
 
 /* End Main slider css*/
 /* End Main slider css*/
@@ -788,6 +924,36 @@
             border-right: 1px solid #fff;
             transform: rotate(45deg); */
         }
+
+
+        @media(max-width: 1360px){
+            .botanical-stamp {
+  
+    top: -209px;
+    right: -77px;
+    width: 298px;
+    
+}
+        }
+        @media(max-width: 1174px){
+            .botanical-stamp {
+  
+           
+        top: -190px;
+        right: -15px;
+        width: 269px;
+    }
+    
+}
+        @media(max-width: 1040px){
+            .botanical-stamp {
+        top: -163px;
+        right: 35px;
+        width: 207px;
+    }
+    
+}
+        
 
 /* End SECTION C CSS*/
 /* End SECTION C CSS*/
@@ -1565,12 +1731,12 @@ font-style: normal;
             
              <!-- Logo (Left) -->
              <div class="logo">
-              <h1>
+                <h1>
                   <a href="/">
                       <img src="img/logo_yoko.png" alt="BOTANICAL MARKET">
                   </a>
               </h1>
-          </div>
+              </div>
 
             <!-- Right Side Elements -->
             <div class="header-actions">
